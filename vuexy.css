@@ -1,0 +1,42 @@
+
+
+.qwe{
+    width: 50px;
+    height: 50px;
+    position: fixed!important;
+    top: 100px;
+    left:97%;
+   
+}
+.bt{
+    border: none;
+    box-shadow: rgba(225, 16, 16, 0.35) 0px 5px 15px;
+    color: white;
+}
+
+.ert{
+    width: 100px;
+    height: 50px;
+    /* position:absolute; */
+    position: fixed;
+    bottom: 100px;
+    right: 70px;
+}
+.navbar{
+    margin-top: 10px;
+}    
+
+.one{
+    height:500px;
+    background-color: blanchedalmond;
+    }
+    .one1{
+        background-color: aquamarine;
+    }
+    .one2{
+        background-color: aliceblue;
+    }
+.two{
+    height: 500px;
+    background-color: aqua;
+}
