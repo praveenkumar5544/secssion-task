@@ -1,0 +1,121 @@
+
+
+.qwe{
+    width: 50px;
+    height: 50px;
+    position: fixed!important;
+    top: 100px;
+    left:97%;
+   
+}
+.bt{
+    border: none;
+    box-shadow: rgba(225, 16, 16, 0.35) 0px 5px 15px;
+    color: white;
+}
+
+.ert{
+    width: 100px;
+    height: 50px;
+    /* position:absolute; */
+    position: fixed;
+    bottom: 100px;
+    right: 70px;
+}
+.aws{
+    padding-left: 8%;
+} 
+
+.pod{
+    color: grey;
+}
+
+.c2{
+    position: fixed;
+    left: 17%;
+    width: 82%;
+    z-index: 1;
+
+}
+.cole{
+    margin-top: 100px;
+    margin-left: 10px;
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: aquamarine;
+    
+}
+
+.r1{
+    margin-top: 10%;
+    margin-left: 1%;
+    
+}
+
+.note{
+    width: 100px;
+}
+
+.ux{
+    height:30%;
+    width: 100px;
+}
+.col1{
+    width: 20%;
+    height: 150px;
+    margin-left: 10px;
+}
+
+.one{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 290px;
+    width: 450px;
+    margin-left: 50px;
+    padding-left: 20px;
+    padding-top: 20px;
+    background-color: red;
+    animation: beat 1s infinite;
+
+    animation: text 3s;
+}
+
+
+@keyframes text {
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    50%{
+              transform: translateX(0);
+              
+              opacity: 1;
+  
+    }
+    100%{
+            transform: translateX(1000px);
+              opacity: 1;
+    }
+
+}
+
+ @keyframes beat {
+        0%{
+            background-color: red;
+        }
+        25%{
+            background-color: orange;
+        }
+        
+        50%{
+            background-color: yellow;
+        }
+        
+        75%{
+            background-color: blueviolet;
+        }
+
+        100%{
+            background-color: aqua;
+        }
+    }

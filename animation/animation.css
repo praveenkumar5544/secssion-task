@@ -1,0 +1,80 @@
+    .redheart{
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        border-radius: 50%;
+      animation: beat 3s infinite;
+      /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    }
+
+
+    @keyframes beat {
+        0%{
+            background-color: red;
+        }
+        50%{
+            background-color: orange;
+        }100%{
+            background-color: yellow;
+        }
+        
+    }
+
+
+
+    .heart{
+        width: 100px;
+        height: 100px;
+        background-color: red;
+                border-radius: 50%;
+                animation: heartbet 1s infinite;
+
+    }
+
+@keyframes heartbet {
+    0%{
+        transform: scale(1);
+        opacity: 50%;
+    }100%{
+         transform: scale(1.2);
+        opacity: 100%;
+    }
+    
+}
+
+.textt{
+    animation: text 3s;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+}
+
+@keyframes text {
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    50%{
+              transform: translateX(0);
+              
+              opacity: 1;
+  
+    }
+    100%{
+            transform: translateX(1000px);
+              opacity: 1;
+    }
+}
+.t1{
+    margin-top: 40px;
+    animation:t1 3s infinite;
+}
+
+@keyframes t1 {
+    0%{
+       transform: rotate(0);
+    }
+  100%{
+    transform: rotate(360deg);
+    
+  }
+}
+

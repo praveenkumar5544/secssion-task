@@ -1,0 +1,30 @@
+.d1{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    width: 80%;
+    border: 1px solid red;
+
+
+}
+  .c1 , .c2 , .c3 , .c4 , .c5 , .c6 , .c7{border: 1px solid rgb(1, 1, 27); 
+    
+}
+
+.t1 , .t2 , .t3 , .t4 , .t5 , .t6 , .t7{
+    width: 100px;
+    height: 100px;
+ padding-left: 70px;
+ padding-top: 50px;
+
+}
+
+.b1 , .b2 , .b3 , .b4 , .b5 , .b6 , .b7{ 
+    width: 200px;
+    padding-left: 70px;
+    color: blue;
+}
+
+.w1 , .w2 , .w3 , .w4 , .w5 , .w6 , .w7{
+    padding-left: 100px;
+}

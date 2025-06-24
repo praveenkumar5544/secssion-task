@@ -1,0 +1,27 @@
+.rightbox{
+    padding-left:50px;
+    background-image: url(wp.jpg);
+    background-repeat: no-repeat;
+    background-position:cover;
+    border-width: 100px;
+
+}
+.aws , .aws1{
+    padding-left: 12px;
+}
+.kit{
+    padding-left: 20px;
+}
+.how{
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.edc{
+    width: 28%;
+    padding-bottom: 10px;
+}
+.gtn{
+    margin-left: 7%;
+}

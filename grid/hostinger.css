@@ -1,0 +1,29 @@
+ <style>
+        .care{color: blueviolet;
+        font-size: 25px;
+    font-weight: 600;
+font-family: 'Times New Roman', Times, serif;}
+        .webpara{font-size: 15px;}
+        .btn1{color: rgb(251, 249, 253);
+        background-color: blueviolet;
+    border-radius: 8px;
+height: 30px;
+border: none;
+font-weight: 700;}
+.btn2{color: rgb(183, 120, 246);
+        background-color: rgb(240, 238, 243);
+    border-radius: 8px;
+height: 30px;
+font-weight: 700;
+border: 2px solid rgb(161, 26, 191);
+
+}
+     .care{margin-left: 50px;}
+
+     .webpara{margin-left: 50px;
+    
+}
+.btn1{margin-left: 50px;}
+.btn2{margin-left: 20px;}
+.btn3{margin-left: 20px;}
+

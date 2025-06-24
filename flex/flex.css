@@ -1,0 +1,28 @@
+.box{
+    width: 100%;
+    height: 500px;
+    border: 1px solid black;
+display: flex;
+    align-items: center;
+justify-content: space-around;
+}
+
+.left-box{
+    width: 400px;
+}
+
+
+.navbar{
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu{
+    width: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

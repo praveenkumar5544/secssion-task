@@ -1,0 +1,84 @@
+.t1 , .t2 , .t3  , .t4{
+        width: 145px;
+        height: 150px;
+        display: grid;
+        padding-left: 15px;
+        border-radius: 20%;
+    }
+    
+    .e1 , .e2 , .e3  , .e4{
+        padding-left: 10px;
+        color: darkgray;
+    }
+
+.g1 , .g2 , .g3 , .g4 {
+    padding-left: 10px;
+    
+
+}
+
+.f1 , .f2 , .f3  , .f4 {
+    padding-left: 15%;
+
+}
+
+.v1 , .v2 , .v3 , .v4 { 
+    padding-left: 5px;
+    color: green;
+
+ 
+}
+
+.s1 , .s2 , .s3 , .s4 {
+    padding-left: 15%;
+    padding-top: 10%;
+}
+
+.z1 , .z2 , .z3 , .z4 { 
+    padding-left:16%;
+    color: green;
+    padding-bottom: 10%;
+    
+}
+.nest , .nest2 , .nest3 , .nest4{
+    display: flex;
+
+}
+.add , .add2 , .add3 , .add4 { 
+    display: flex;
+    ;
+
+}
+.c7 , .c8 , .c3 , .c4 {
+    color: green;
+    background-color: chartreuse;
+    border: none;
+    width: 50px;
+    height:30px;
+    border-radius: 10%;
+}
+.q2 , .q3 , .q1 , .q4{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+     margin-left: 1%;
+   margin-top: 1%;
+   border-radius: 20px;
+}
+
+.kob{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap: 10px;
+   }
+
+   .ne{
+    width: 400px;
+    height: 500px;
+    margin-left: 100px;
+   }
+   .q3 :hover{color: blue;
+    text-decoration: overline;
+    transform: scale(1,2);
+    transition: transform 0.8ms ease-in;
+
+
+   }
